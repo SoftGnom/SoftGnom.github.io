@@ -3,3 +3,6 @@ description: Un ecosistema obert par casa teva.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-dinky
+github:
+  zip_url: http://example.com/download.zip
+  another_url: el-teu-email@domini.com
