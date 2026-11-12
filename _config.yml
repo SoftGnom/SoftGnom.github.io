@@ -1,5 +1,4 @@
-title: SoftGnom
-description: Un ecosistema obert par casa teva.
-show_downloads: false
-google_analytics:
 theme: jekyll-theme-dinky
+title: El nom de la meva web
+description: Una frase curta sobre mi o el projecte
+show_downloads: false
