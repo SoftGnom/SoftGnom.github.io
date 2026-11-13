@@ -8,7 +8,6 @@ title: Sobre mi
 M'apassiona apropar el programari i el desenvolupament eficient directament als entorns d'execució local, prioritzant la **privacitat**, la **modularitat** i el **rendiment**.
 
 - **Tech Stack Principal:** Python, C++, C, Java, Dart, Shell/Bash, SQL (PostgreSQL, Oracle SQL), NoSQL (MongoDB), Docker, Podman, Proxmox, AWS, HTML/JS/CSS, Flutter.
-- **Filosofia de Treball:** Disseny d'arquitectures *offline-first*, codi net (*Clean Code*), testatge automatitzat i orientació a la resolució pragmàtica de problemes tècnics complexos.
 
 ## Contacte
 
