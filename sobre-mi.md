@@ -3,6 +3,10 @@ layout: default
 title: Sobre mi
 ---
 
-# Qui soc
+## 👨‍💻 Sobre mi & Competències Tècniques
 
-Aquest és el contingut de la segona pàgina. Sempre que posis les tres ratlles amb `layout: default` a dalt de tot, carregarà el requadre esquerre amb el teu menú.
+M'apassiona apropar el programari i el desenvolupament eficient directament als entorns d'execució local, prioritzant la **privacitat**, la **modularitat** i el **rendiment**.
+
+- **Tech Stack Principal:** Python, C++, C, Java, Dart, Shell/Bash, SQL (PostgreSQL, Oracle SQL), NoSQL (MongoDB), Docker, Podman, Proxmox, AWS, HTML/JS/CSS, Flutter.
+- **Filosofia de Treball:** Disseny d'arquitectures *offline-first*, codi net (*Clean Code*), testatge automatitzat i orientació a la resolució pragmàtica de problemes tècnics complexos.
+
