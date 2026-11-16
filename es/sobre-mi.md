@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: se
+lang: es
 title: Sobre mí
 ---
 
