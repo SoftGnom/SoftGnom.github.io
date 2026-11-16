@@ -1,5 +1,8 @@
+{% assign lang = page.lang | default: "ca" %}
+{% assign t = site.data.traduccions[lang] %}
+
 <!doctype html>
-<html lang="ca">
+<html lang="{{ lang }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,17 +14,22 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title }}</h1>
-        <p class="header">{{ site.description }}</p>
 
-        <!-- EL TEU MENÚ DE BOTONS -->
+        <!-- MENÚ DINÀMIC -->
+        <h1 class="header">{{ site.title }}</h1>
+        <p class="header">{{ t.descripcio }}</p>
         <ul>
-          <li><a class="buttons github" href="{{ '/' | relative_url }}">Inici</a></li>
-          <li><a class="buttons github" href="{{ '/projectes.html' | relative_url }}">Projectes</a></li>
-          <li><a class="buttons github" href="{{ '/sobre-mi.html' | relative_url }}">Sobre mi</a></li>
+          <li><a class="buttons github" href="{{ '/' | append: lang | append: '/' | relative_url }}">{{ t.inici }}</a></li>
+          <li><a class="buttons github" href="{{ '/' | append: lang | append: '/projectes.html' | relative_url }}">{{ t.projectes }}</a></li>
+          <li><a class="buttons github" href="{{ '/' | append: lang | append: '/sobre-mi.html' | relative_url }}">{{ t.sobre_mi }}</a></li>
         </ul>
 
-        <!-- TEXT EXTRA AL REQUADRE ESQUERRE (Opcional) -->
+        <!-- SELECTOR DE 3 IDIOMES -->
+        <p class="header">
+          🌐 <a href="{{ '/ca/' | relative_url }}">CA</a> | 
+          <a href="{{ '/es/' | relative_url }}">ES</a> | 
+          <a href="{{ '/en/' | relative_url }}">EN</a>
+        </p>
 
       </header>
 
@@ -30,7 +38,7 @@
       </section>
 
       <footer>
-        <p><small>Fet amb Jekyll i GitHub Pages</small></p>
+        <p><small>{{ t.peu }}</small></p>
       </footer>
     </div>
   </body>
