@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: es
-title: Sobre el Proyecto
+title: De este proyecto
 ---
 
 ## ⚙️ Filosofía & Arquitectura de SoftGnom
