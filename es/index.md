@@ -6,12 +6,16 @@ title: Inicio
 
 ## 🗺️ Visión del Proyecto & Estado Actual
 
-El objetivo global de **SoftGnom** es consolidar un entorno robusto, privado, modular y fácil de administrar, orientado a la soberanía tecnológica local.
+**SoftGnom** es un laboratorio independiente de ingeniería de software e investigación tecnológica. El objetivo global del proyecto es consolidar un ecosistema robusto, privado, modular y fácil de administrar, centrado en la soberanía tecnológica local y la optimización de recursos.
 
-Actualmente, todo el conjunto se encuentra en una fase de **Pruebas de Concepto (PoC) altamente funcionales**, inmerso en una etapa de investigación y definición formal de requisitos. Para ello estoy centrado principalmente en **LocAI**, una pieza fundamental que sirve como base para la creación de nuevas herramientas, mientras hago pequeñas aportaciones al resto de repositorios para trazar un camino sólido.
+### Evolución: De la experimentación a la arquitectura modular
+El ecosistema nace de la necesidad de dotar de coherencia y estructura a un conjunto de herramientas y pruebas de concepto desarrolladas inicialmente de forma aislada. Actualmente, el foco de ingeniería se centra en establecer los cimientos de un entorno de trabajo eficiente antes de escalar nuevas funcionalidades.
 
-El proyecto **LocAI** nació como un punto de interacción centralizado para la IA, pero se está estructurando de forma modular en **dos ejes complementarios** bajo un mismo ecosistema:
-1. **IA Centralizada:** Orquestación e interacción con modelos locales.
-2. **DevOps con IA:** Automatización y optimización de procesos de infraestructura.
+### El Núcleo Actual: LocAI
+Para construir con solidez, la prioridad actual es **LocAI**, el motor base que se está reestructurando en tres ejes independientes y desacoplados (separando la lógica de negocio y procesamiento de la capa de visualización):
 
-- **Focus Actual:** Desarrollo de la herramienta base **LocAI**, estructurando su entorno de orquestación de servicios locales y automatización DevOps.
+1. **Núcleo de IA Local:** Módulo de orquestación e interacción avanzada con modelos locales, diseñado para ir más allá de un simple chat y actuar como capa de inteligencia reutilizable.
+2. **Entorno DevOps & Flux con IA:** Herramientas de automatización y optimización de infraestructura orientadas a mejorar la experiencia de desarrollo (*Developer Experience*), integrando agentes y LLMs para programar con criterio, orden y eficiencia.
+3. **Ecosistema de Integración (En definición):** Arquitectura agnóstica a la tecnología que permitirá ensamblar los diferentes módulos del laboratorio bajo una misma interfaz o ejecutarlos como servicios independientes.
+
+- **Estado del Foco Actual:** Construcción y estabilización del entorno de desarrollo asistido por IA y separación modular de **LocAI**.

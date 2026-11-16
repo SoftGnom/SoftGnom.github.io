@@ -6,12 +6,15 @@ title: Home
 
 ## 🗺️ Project Vision & Current Status
 
-The overarching goal of **SoftGnom** is to establish a robust, private, modular, and easy-to-manage environment, geared toward local technological sovereignty.
+**SoftGnom** is an independent software engineering and technology research laboratory. The project's overarching goal is to establish a robust, private, modular, and easy-to-manage ecosystem, centered on **local technological sovereignty** and resource optimization.
 
-Currently, the entire project is in a phase of **highly functional Proofs of Concept (PoC)**, while undergoing research and the formal definition of requirements. To achieve this, I am primarily focused on **LocAI**—a foundational component that serves as a base for creating new tools—while also making incremental contributions to other repositories to pave a solid path forward.
+### Evolution: From Experimentation to Modular Architecture
+The ecosystem emerged from the need to bring coherence and structure to a collection of tools and proofs-of-concept that were initially developed in isolation. Currently, the engineering focus is on laying the foundations for an efficient working environment before scaling up new functionalities.
 
-The **LocAI** project began as a centralized interaction point for AI, but it is now being structured modularly around **two complementary pillars** within a single ecosystem:
-1. **Centralized AI:** Orchestration and interaction with local models.
-2. **AI-driven DevOps:** Automation and optimization of infrastructure processes.
+### The Current Core: LocAI
+To build a solid foundation, the current priority is **LocAI**—the core engine—which is being restructured into three independent, decoupled pillars (separating business and processing logic from the visualization layer):
 
-- **Current Focus:** Developing the core **LocAI** tool, specifically structuring its environment for local service orchestration and DevOps automation.
+1. **Local AI Core:** A module for orchestration and advanced interaction with local models, designed to go beyond a simple chat interface and function as a reusable intelligence layer.
+2. **DevOps Environment & AI-Driven Workflow:** Infrastructure automation and optimization tools aimed at enhancing the *Developer Experience*, integrating agents and LLMs to facilitate programming with sound judgment, order, and efficiency. 3. **Integration Ecosystem (Under definition):** A technology-agnostic architecture that will allow the laboratory's various modules to be integrated under a unified interface or executed as independent services.
+
+- **Current Focus:** Building and stabilizing the AI-assisted development environment and the modular separation of **LocAI**.

@@ -4,22 +4,44 @@ lang: es
 title: Proyectos
 ---
 
-## 🛠️ Proyectos Destacados
+## 🛠️ Repositorios & Evolución Técnica
 
-Una visión rápida de mi repositorio público, estructurado bajo la filosofía de herramientas autónomas y eficientes:
+El catálogo público de **SoftGnom** refleja una evolución orgánica: desde la experimentación algorítmica y de bajo nivel hasta la construcción de un ecosistema modular de IA y automatización en local.
 
-### 🤖 Inteligencia Artificial & Privacidad Offline
+---
 
-| Proyecto | Descripción | Lenguaje | Highlight |
+### 🚀 1. Núcleo del Ecosistema (Desarrollo Activo)
+Proyectos fundamentales que definen la infraestructura y el principal flujo de trabajo del laboratorio.
+
+| Proyecto | Descripción y Enfoque | Tecnologías | Estado / Rol |
 | :--- | :--- | :---: | :--- |
-| **[LocAI](https://github.com/SoftGnom/LocAI)** | Herramienta base para la orquestación de IA local y optimización de procesos, dividida en módulos de interacción centralizada y automatización DevOps. | `Shell` | *Base Ecosystem & Local AI* |
-| **[CopIURL](https://github.com/SoftGnom/CopIURL)** | Herramienta modular para automatizar la recogida, limpieza, organización y análisis de contenido web de forma completamente offline. | `Python` | *Modular & Offline AI* |
-| **[TextIAudio](https://github.com/SoftGnom/TextIAudio)** | Sistema ágil y modular para síntesis de voz (**TTS con Piper**) y transcripción (**STT con VOSK**) encapsulado en contenedores aislados. | `Python` | *Docker / TTS & STT* |
-| **[ML-LoL](https://github.com/SoftGnom/ML-LoL)** | Aprendizaje Computacional aplicado a un dataset complejo (Riot API), contrastando algoritmos de clasificación con aceleración por GPU. | `Jupyter` | *Data Analysis & ML* |
+| **[LocAI](https://github.com/SoftGnom/LocAI)** | Herramienta base en fase de modularización: separa la orquestación de IA local, la automatización del entorno de desarrollo (DevOps + Agents LLM) y la futura capa de integración de servicios. | `Shell` `Python` `Podman` `Compose`| *Core & DevOps* |
 
-### 📱 Desarrollo Web, Sistemas & Utilidades
+---
 
-| Proyecto | Descripción | Lenguaje | Highlight |
-| :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------: | :-------------------- |
-| **[DynoForm](https://github.com/SoftGnom/DynoForm)** | Aplicación para generar formularios dinámicos a partir de archivos JSON estructurados desde un backend. | `JavaScript` | *Dynamic Rendering* |
-| **[MiscelaneaPasada](https://github.com/SoftGnom/MiscelaneaPasada)** | Colección de algoritmos, experimentos de bajo nivel y soluciones de alto rendimiento. | `C++` | *Low-level / Systems* |
+### 🧩 2. Herramientas Específicas & Pruebas de Concepto (PoC)
+Soluciones desarrolladas previamente a la definición del ecosistema global, orientadas a la privacidad y ejecución *offline*. Actualmente funcionan como piezas autónomas pendientes de integración.
+
+| Proyecto | Descripción y Enfoque | Tecnologías | Estado / Rol |
+| :--- | :--- | :---: | :--- |
+| **[CopIURL](https://github.com/SoftGnom/CopIURL)** | Herramienta modular para automatizar la captura, limpieza, estructuración y análisis de contenido web de forma completamente local y sin dependencias externas. | `Python` | *PoC / Offline Data* |
+| **[TextIAudio](https://github.com/SoftGnom/TextIAudio)** | Sistema encapsulado en contenedores aislados para la síntesis de voz (**TTS con Piper**) y transcripción (**STT con VOSK**) en entornos locales. | `Python` `Podman` `Compose` | *PoC / Multimodal* |
+
+---
+
+### 📦 3. Componentes Reutilizables & Casos de Uso
+Desarrollos orientados a resolver necesidades funcionales concretas con capacidad de ensamblarse a arquitecturas más amplias.
+
+| Proyecto | Descripción y Enfoque | Tecnologías | Estado / Rol |
+| :--- | :--- | :---: | :--- |
+| **[DynoForm](https://github.com/SoftGnom/DynoForm)** | Motor de renderizado dinámico capaz de generar formularios reactivos y adaptables a partir de esquemas JSON estructurados desde un backend. | `Dart` `Flutter` `JSON` `Python` `Podman` `Compose` | *UI / Dynamic Engine* |
+
+---
+
+### 🔬 4. Laboratorio, Datos & Fundamentos de Software
+Repositorios de exploración técnica, entrenamiento de modelos y código escrito de forma manual (previo al uso de asistentes generativos), centrados en el rigor algorítmico y el control del hardware.
+
+| Proyecto | Descripción y Enfoque | Tecnologías | Estado / Rol |
+| :--- | :--- | :---: | :--- |
+| **[ML-LoL](https://github.com/SoftGnom/ML-LoL)** | Experimentación de aprendizaje computacional sobre un conjunto de datos masivo (Riot API), evaluando modelos de clasificación y aceleración por GPU. | `Python` `Jupyter` `CUDA` | *Data & ML Lab* |
+| **[MiscelaneaPassada](https://github.com/SoftGnom/MiscelaneaPassada)** | Recopilación de piezas de software, estructuras de datos, algoritmos de optimización y código de bajo nivel desarrollado manualmente. | `C++` `C` `Java` `Python` `Assembly` `Raspberry Pi` | *Low-level & Algorithms* |
