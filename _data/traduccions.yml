@@ -14,7 +14,7 @@ es:
   projectes: "Proyectos"
   peu: "Hecho con Jekyll y GitHub Pages"
   canviar_idioma: "Català"
-  url_idioma: "/"
+  url_idioma: "/es/"
 
 en:
   descripcio: "en-Un ecosistema obert par casa teva."
@@ -23,5 +23,5 @@ en:
   projectes: "Proyectos"
   peu: "Hecho con Jekyll y GitHub Pages"
   canviar_idioma: "English"
-  url_idioma: "/"
+  url_idioma: "/en/"
 
