@@ -1,1 +1,27 @@
+ca:
+  descripcio: "Un ecosistema obert par casa teva."
+  inici: "Inici"
+  sobre_mi: "Sobre mi"
+  projectes: "Projectes"
+  peu: "Fet amb Jekyll i GitHub Pages"
+  canviar_idioma: "Español"
+  url_idioma: "/es/"
+
+es:
+  descripcio: "es-Un ecosistema obert par casa teva."
+  inici: "Inicio"
+  sobre_mi: "Sobre mí"
+  projectes: "Proyectos"
+  peu: "Hecho con Jekyll y GitHub Pages"
+  canviar_idioma: "Català"
+  url_idioma: "/"
+
+en:
+  descripcio: "en-Un ecosistema obert par casa teva."
+  inici: "Inicio"
+  sobre_mi: "Sobre mí"
+  projectes: "Proyectos"
+  peu: "Hecho con Jekyll y GitHub Pages"
+  canviar_idioma: "English"
+  url_idioma: "/"
 
